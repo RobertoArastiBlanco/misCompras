@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.miscompras">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MisCompras">
+        <activity android:name=".Acerca_de"></activity>
+        <activity
+            android:name=".Mostrar_grafico"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Mover_elementos"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Borrar_elementos"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Marcar_presupuesto"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Borrar_entradas"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Anadir_producto"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Anadir_subcategoria"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Anadir_categoria"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Exportar_datos"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Generar_estadisticas"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Guardar_datos"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Menu"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".Inicio"
+            android:screenOrientation="user">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
